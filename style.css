@@ -23,21 +23,33 @@ body {
     display: flex; /* Flexbox for side-by-side layout */
     justify-content: center; /* Center images horizontally */
     align-items: center; /* Align images vertically */
-    gap: 600px; /* Space between images */
-    width: 50%; /* Ensure the container takes up the full width */
-    max-width: 300px; /* Maximum width of the image container */
+    gap: 500px; /* Space between images */
+    width: 100%; /* Ensure the container takes up the full width */
+    max-width: 1000px; /* Increase max-width to accommodate larger images */
+}
+
+.image-wrapper {
+    display: flex;
+    flex-direction: column; /* Stack images vertically */
+    align-items: center; /* Center images horizontally */
+    position: relative; /* Create a stacking context */
 }
 
 .ben {
-    max-width: 100%; /* Make the image smaller */
+    max-width: 150%; /* Make the image smaller */
     height: auto;
-    margin-right: auto; /* Pushes the image to the left */
+}
+
+.hi {
+    max-width: 150%; /* Adjust size as needed */
+    height: auto;
+    margin-top: -40px; /* Adjust this value to create more space between images */
 }
 
 .bookshelf {
-    max-width: 100%; /* Make the image smaller */
+    max-width: 30%; /* Make the image smaller */
     height: auto;
-    margin-left: auto; /* Pushes the image to the right */
 }
+
 
 
