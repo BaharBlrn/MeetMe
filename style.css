@@ -14,7 +14,7 @@ body {
 .title {
     font-size: 2.5em;
     margin: 40px 0 20px 0;
-    color: #C8A2C8; /* Lilac color */
+    color: #AE86BC; /* Lilac color */
     font-style: italic;
     text-align: center;
 }
@@ -34,6 +34,70 @@ body {
     align-items: center; /* Center images horizontally */
     position: relative; /* Create a stacking context */
 }
+.image-wrapper2 {
+    position: relative;
+    display: inline-block;
+}
+.overlay-text {
+    position: absolute;
+    top: 70%; /* Vertically center the text */
+    left: 25%; /* Horizontally center the text */
+    transform: translate(-50%, -50%); /* Adjust for perfect centering */
+    color: white;
+    font-size: 0.7em;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: Semi-transparent background */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.overlay-text2 {
+    position: absolute;
+    top: 45%; /* Vertically center the text */
+    left: 25%; /* Horizontally center the text */
+    transform: translate(-50%, -50%); /* Adjust for perfect centering */
+    color: white;
+    font-size: 0.7em;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: Semi-transparent background */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.overlay-text3 {
+    position: absolute;
+    top: 70%; /* Vertically center the text */
+    left: 75%; /* Horizontally center the text */
+    transform: translate(-50%, -50%); /* Adjust for perfect centering */
+    color: white;
+    font-size: 0.7em;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: Semi-transparent background */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.overlay-text4 {
+    position: absolute;
+    top: 45%; /* Vertically center the text */
+    left: 75%; /* Horizontally center the text */
+    transform: translate(-50%, -50%); /* Adjust for perfect centering */
+    color: white;
+    font-size: 0.7em;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: Semi-transparent background */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
 
 .ben {
     max-width: 120%; /* Make the image smaller */
@@ -52,7 +116,7 @@ body {
 
 
 .bookshelf {
-    max-width: 30%; /* Make the image smaller */
+    max-width: 320px; /* Make the image smaller */
     height: auto;
 }
 .trivia, .like, .born {
