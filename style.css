@@ -130,4 +130,51 @@ body {
     flex-direction: column; /* Stack balloons vertically */
     align-items: center; /* Center balloons horizontally */
 }
+.sprite-cat {
+    width: 240px;
+    height: 150px;
+    background: url('images/calico_0.png') left center;
+    position: absolute;
+    bottom: 10px;
+    left: -180px;
+    animation: walk 7s linear infinite, step-animation 1s steps(5) infinite;
+}
+
+@keyframes walk {
+    0% {
+        left: -200px;
+    }
+    100% {
+        left: 100%;
+    }
+}
+
+@keyframes step-animation {
+    0% {
+        background-position: -10px; /* Start at the first frame */
+    }
+    100% {
+        background-position: -1180px; /* End at the last frame (total width of sprite sheet) */
+    }
+}
+.sprite-cat2 {
+    width: 180px; /* Width of one frame */
+    height: 100px; /* Height of one frame */
+    background: url('images/orange_3.png') no-repeat;
+    position: absolute;
+    bottom: 470px; /* Adjust based on your design */
+    left: 50%; /* Center horizontally */
+    z-index: 1;
+    transform: translateX(-50%); /* Centering fix */
+    animation: look-around 4s steps(4) infinite;
+}
+
+@keyframes look-around {
+    0% {
+        background-position: 0px; /* Looking left */
+    }
+    100% {
+        background-position: -700px; /* Looking right */
+    }
+}
 
