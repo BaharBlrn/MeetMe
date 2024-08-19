@@ -45,6 +45,11 @@ body {
     height: auto;
     margin-top: -40px; /* Adjust this value to create more space between images */
 }
+.hobby{
+    max-width: 100%; /* Make the image smaller */
+    height: auto;
+}
+
 
 .bookshelf {
     max-width: 30%; /* Make the image smaller */
