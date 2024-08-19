@@ -23,7 +23,7 @@ body {
     display: flex; /* Flexbox for side-by-side layout */
     justify-content: center; /* Center images horizontally */
     align-items: center; /* Align images vertically */
-    gap: 130px; /* Space between images */
+    gap: 150px; /* Space between images */
     width: 100%; /* Ensure the container takes up the full width */
     max-width: 1000px; /* Increase max-width to accommodate larger images */
 }
@@ -36,12 +36,12 @@ body {
 }
 
 .ben {
-    max-width: 100%; /* Make the image smaller */
+    max-width: 120%; /* Make the image smaller */
     height: auto;
 }
 
 .hi {
-    max-width: 100%; /* Adjust size as needed */
+    max-width: 120%; /* Adjust size as needed */
     height: auto;
     margin-top: -40px; /* Adjust this value to create more space between images */
 }
@@ -50,8 +50,8 @@ body {
     max-width: 30%; /* Make the image smaller */
     height: auto;
 }
-.trivia, .like {
-    max-width: 130%; /* Adjust size as needed */
+.trivia, .like, .born {
+    max-width: 170%; /* Adjust size as needed */
     height: auto;
     margin-bottom: 10px;
 }
